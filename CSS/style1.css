@@ -1,0 +1,25 @@
+p{
+    color: orange;
+    font-size:20px ;
+     font-family: Itali , "Times New Roman" , Italic , sans-serif;
+    /*100-900 , bold */
+    font-weight: 155;
+    font-style: oblique;
+    /*left , center , right , justify */
+    text-align: justify;
+    text-indent: 50px;
+    /*underline , overline , line-through*/
+    text-decoration: line-through;
+    /*uppercase , lowercase , capitalize*/
+    text-transform: capitalize;
+    /* px , 1.2 */
+    line-height: 50px;
+    letter-spacing: 5px;
+    word-spacing: 20px;
+    text-shadow: 10px 15px 2px  black;
+    }
+    div{
+        height: 400px;
+       /* background: linear-gradient(90deg , red , green , blue)*/
+       background: radial-gradient(red , blue);
+    }

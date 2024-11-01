@@ -1,0 +1,682 @@
+.asos{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+body{
+    background-image: url(banner-shape-1.png);
+}
+.menu{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: rgba(26, 31, 44, 0.25) 0px 1px 2px 0px;
+    padding: 0px 10px;
+    align-items:center;
+    }
+.list ul{
+    display: flex;
+    justify-content: flex-start;
+}
+.list ul li{
+    list-style: none;
+    margin:0px 3px;
+    padding: 17px;
+    
+}
+.list ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color:grey;
+    font-family: "Bricolage Grotesque", sans-serif;
+}
+.talk{
+    display: flex;
+    align-items:center;
+}
+.active{
+    background-color: #F0F2F5;
+    border-radius: 5px;
+}
+   .list ul li:hover{
+    background-color: #F0F2F5;
+    border-radius: 5px;
+   }
+   .list ul .active a, .list ul li:hover a{
+    color:#1A1F2C;
+   }
+   .talk button {
+    background-color:#1A1F2C;
+    border-radius: 10px;
+    padding: 20px;
+    margin: px 1px;
+    cursor: pointer;
+    border: none;
+    }
+    .talk button:hover{
+    background-color:#4770FF;
+    border: none;
+    }
+    .talk button a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    }
+   .logo a{
+    text-decoration: none;
+    color:#1A1F2C;
+    font-size: 30px;
+    font-weight: bold;
+    margin: 50px 20px;
+    cursor:pointer;
+    font-family: "Bricolage Grotesque", sans-serif;
+    }
+   .moon a{
+    color:#1A1F2C;
+    font-size: 40px;
+    margin: 50px 25px;
+    font-size: 25px;
+    }
+    .moon:hover{
+    border-radius: 7px;
+    background-color: #F0F2F5;
+    box-sizing: 30px;
+    } 
+    .main .main1 img{
+        height: 250px;
+        margin-top: 10px;
+        border-radius:5px;
+        object-fit: cover;
+        margin-left: 100px;
+    }
+    .main .main1 .space{
+        border-radius: 8px;
+        box-sizing: border-box;
+        display: block;
+        background-color: rgb(240, 242, 245);
+    }
+    .main{
+        display: grid;
+        grid-template-columns:repeat(3, 1fr) ;
+        gap: 25px;
+        margin-top: 25px;
+        font-family: "Bricolage Grotesque", sans-serif;
+        color:#212529;
+        box-sizing: border-box;
+    }
+    .tugmalar{
+        display: flex;
+        justify-content: center;
+    }
+    .tugmalar button{
+        padding: 15px;
+        font-size: 16px;
+        border-radius: 5px;
+        margin: 5px;
+    }
+    .blue{
+        background-color:#4770FF;
+        border: none;
+        color:white;
+        font-weight: 500;
+        cursor:pointer;
+    }
+    .blue:hover{
+        background-color:#3724FF;
+    }
+    .white{
+        border:1px solid gray;
+        font-weight: 500;
+        background-color:white;
+    }
+    .main .main1 ,.main3{
+        background-color:white;
+        border-radius: 15px;
+        padding: 15px;
+        box-shadow: 0 0 1px;
+        box-sizing: border-box;
+        box-shadow: rgba(26, 31, 44, 0.25) 0px 1px 2px 0px;
+        height: 574px;
+    }
+    .white:hover{
+        background-color:#F0F2F5;
+        cursor:pointer;
+    }
+    .main .main3{
+    font-size: 25px;
+    font-weight: bold;  
+    }
+    .main .main3 a{
+        font-size: 15px;
+    }
+    .social i{
+        padding: 10px;
+        border: 1px solid #DBDFE5;
+        border-radius: 5px;
+        font-size: 18px;
+        margin-right: 5px;
+        color: #384559;
+    }
+    .social{
+        margin-top: 30px;
+    }
+    .social i:hover{
+        color:#4770FF;
+        cursor:pointer;
+    }
+    .main2 .blok1 ul li{
+        list-style: none;
+        display: flex;
+        align-items:center;
+        justify-content: space-between;
+    }
+    .main2{
+        display:grid;
+        grid-template-rows: repeat(2, 275px );
+        row-gap: 24px;
+    }
+    .main2 .blok1{
+        overflow: hidden;
+        background-color: white;
+        border-radius: 15px;
+        padding: 15px;
+        box-sizing: border-box;
+        box-shadow: rgba(26, 31, 44, 0.25) 0px 1px 2px 0px;
+    }
+    .main2 .work ul{
+        animation-delay: 0s;
+        animation-direction: normal;
+        animation-duration: 10s;
+        animation-fill-mode: none;
+        animation-iteration-count: infinite;
+        animation-name:scrolly;
+        animation-play-state: running;
+        animation-range: normal;
+        animation-timeline: auto;
+        animation-timing-function: linear;
+        list-style-position: outside;
+        column-gap: 16px;
+        display: flex;
+        flex-direction: column;
+        max-height: 220px;
+        row-gap: 16px;
+        box-sizing: border-box;
+    }
+    @keyframes scrolly{
+        0%{
+            transform: translateY(0);
+        }
+        to{
+            transform: translateY(-100%);
+        }
+    }
+    .main2 .blok1 ul:hover{
+        animation-play-state: paused;
+    }
+    .main2 .blok1 .work{
+        overflow-y: hidden;
+    }
+    .main2 .work li{
+        display: flex;
+    }
+    .main2 .work ul li p{
+        display: block;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 22.4px;
+        color: rgb(87, 96, 118);
+    }
+    .main2 .work ul li .info{
+        align-items: center;
+        color: rgb(33, 37, 41);
+        column-gap: 12px;
+        display: flex;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25.6px;
+        row-gap: 12px;
+    }
+    .main2 .work ul li .info .icon{
+        display: flex;
+        align-items: center;
+        background-color: rgb(240, 242, 245);
+        border-radius: 8px;
+        box-sizing: border-box;
+        height: 32px;
+        justify-content: centers;
+    }
+    .main2 .work ul li .info .icon img{
+        list-style-image: none;
+        vertical-align: middle;
+        width: 20px;
+        height: 17.75px;
+    }
+    .main2 .work ul li .info h4{
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 24px;
+    }
+    .main2 .work ul li .info h6{
+        color: rgb(87, 96, 118);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19.88px;
+        width: 144.25px;
+    }
+    .main .blok2{
+        background-color:white;
+        border-radius: 15px;
+        padding: 15px;
+        box-sizing: border-box;
+        box-shadow: rgba(26, 31, 44, 0.25) 0px 1px 2px 0px;
+    }
+    .blok2_items img{
+        height: 32px;
+        width: 32px;
+    }
+    .blok2_items{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+    }
+    .rasm{
+        padding: 10px 30px;
+        background-color: #F0F2F5;
+        border-radius: 5px;
+    }
+    .blok2_items p{
+        margin-top: 5px;
+    }
+    .main4{
+        display: grid;
+    }
+    .main4 .card1{
+        background-color: rgb(255, 255, 255);
+        border-color: rgb(33, 37, 41);
+        border-radius: 16px;
+        box-shadow: rgba(26, 31, 44, 0.25) 0px 1px 2px 0px;
+        box-sizing: border-box;
+        margin-top: 24px;
+        height: 287px;
+        margin-left: 98px;     
+        width: 863px;
+        display: block;
+    }
+    .main4 .card1 h3{
+        color: rgb(33, 37, 41);
+        font-family: "Bricolage Grotesque", sans-serif;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 31.992px;
+        text-align: start;
+        padding-left: 30px;
+        padding-right: 30px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .main4 .card1 h3 a{
+        color: rgb(71, 112, 225);
+        cursor: pointer;
+        font-family: "Bricolage Grotesque", sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        border-bottom-color: rgb(219, 223, 229);
+        border-bottom-style: solid;
+        border-bottom-width: 0.8px;
+        text-align: end;
+        text-decoration: none;
+    }
+    .main4 .card1 h3 a:hover{
+        border-bottom-color: rgb(71, 112, 225)
+    }
+    .main4 .card1 h3 a i{
+        color: rgb(71, 112, 225);
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 400;
+        height: 20px;
+        line-height: 24px;
+    }
+   .service{
+    display: grid;
+    grid-template-rows: repeat(4 , 1fr);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Bricolage Grotesque", sans-serif;
+    line-height: 25.6px;
+    display: block;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 50px;
+    text-align: center;
+    margin-top: -55px;
+    margin-left: -12px;
+    margin-right: -12px;
+    } 
+   .ser{
+    background-color: white;
+    border-radius: 8px;
+    padding-bottom: 25px;
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 25px;
+    height: 65px;
+    width: 125px;
+    }
+    .serv{
+    border-radius: 16px;
+    padding-bottom: 16px;
+    padding-left: 13px;
+    padding-right: 13px;
+    padding-top: 16px;
+    background-color: #F0F2F5;
+    margin-top: 24px;
+    max-width: 100%;
+    height: 160px;
+    margin: 1px;
+    } 
+    .main4 .card2{
+        font-family: "Bricolage Grotesque", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25.6px;
+        margin-top: 25px;
+        max-width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+        text-align: start;
+        width: 418px;
+        color: rgb(33, 37, 41);
+        line-height: 25.6px;
+    }
+    .main4 .card2 .together {
+        background-color: white;
+        border-bottom-color: rgb(33, 37, 41);
+        border-radius: 16px;
+        border-color: rgb(33, 37, 41);
+        box-shadow: rgba(26, 31, 44, 0.25) 0px 1px 2px 0px;
+        box-sizing: border-box;
+        height: 286.4px;
+        width: 417px;
+    }
+    .main4 .card2 .together .card2-body{
+        padding: 24px;
+        
+}
+    .main4 .card2 .together .card2-body .scrolling{
+        background-color: rgb(240, 242, 245);
+        border-radius: 8px;
+        display: flex;
+        height: 56px;
+        margin-bottom: 24px;
+        overflow: hidden;
+    }
+    .main4 .card2 .slider p{
+        animation-delay: 0s;
+        animation-direction: normal;
+        animation-duration: 12s;
+        animation-fill-mode: none;
+        animation-iteration-count: infinite;
+        animation-name: scrolling;
+        animation-play-state: running;
+        animation-range-end: normal;
+        animation-range-start: normal;
+        animation-timeline: auto;
+        animation-timing-function: linear;
+    }
+    .main4 .card2 .slider{
+        display: flex;
+        align-items: center;
+        white-space: nowrap;
+        width: 1fr;
+    }
+    @keyframes scrolling{
+        0%{
+            transform: translateX(35%);
+        }
+            to{
+                transform: translateX(calc(-100%));
+            }
+       
+    }
+    .main4 .card2 .together .card2-body .scrolling .slider p{
+        color: rgb(87, 96, 118);
+        font-size: 18px;
+        font-weight: 500px;
+        line-height: 28.8px;
+        margin-inline-end: 10px;
+        margin-right: 10px;
+    }
+    .main4 .card2 h3{
+        color: rgb(26, 31, 44);
+        column-gap: 15px;
+        font-size: 40px;
+        font-weight: 600px;
+        display: block;
+        justify-content: space-between;
+        line-height: 55px;
+        margin-block-end: 8px;
+        margin-bottom: 8px;
+        row-gap: 15px;
+    }
+    .main4 .card2 h3 span{
+        color: rgb(26, 31, 44);
+        font-size: 40px;
+        font-weight: 600px;
+        line-height: 55px;
+        display: block;
+    }
+    .main4 .card2 a{
+        border-bottom-color: rgb(219, 223, 229);
+        border-bottom-style: solid;
+        border-bottom-width: 0.8px;
+        color: rgb(71, 112, 255);
+        cursor: pointer;
+        font-size: 16px;
+        font-weight: 500px;
+        line-height: 25.6px;
+        margin-top: 14px;
+        text-decoration: none;
+    }
+    .main4 .card2 a:hover{
+        border-bottom-color: rgb(71, 112, 255);
+    }
+    .main4 .card2 a i{
+        font-size: 16px;
+        font-weight: 500px;
+        line-height: 25.6px;
+        height: 20px;
+        color: rgb(71, 112, 255);
+        cursor: pointer;
+        width: 20px;
+    }
+    .main4 .card1 , .card2{
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: -24;
+        margin-left: -12;
+        margin-right: -12;
+    }
+
+    .main4{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        grid-gap:15px;
+    }
+    .service{
+        display: grid;
+        grid-template-columns: repeat(4 , 1fr);
+        grid-gap: 10px;
+    }
+    .main3{
+        font-family: "Bricolage Grotesque", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25.6px;
+        color: rgb(33, 37, 41);
+    }
+    .main3 .main3_header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .main3_header a{
+        text-decoration: none;
+        color: #4770FF;
+        border-bottom: 1px solid lightgray;
+        padding-bottom: 2px;
+    }
+    .main3_header a:hover{
+        border-bottom: 1px solid  #4770FF;
+    }
+    .main3_header h3{
+        margin-top: 7px;
+        
+    }
+    .main3_asos{
+        margin-top: 24pxs;
+    }
+    .main3 .base{
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        height: 932.625px;
+        margin-left: -12;
+        margin-right: -12;
+        margin-top: -24;
+    }
+    .main3 .project-item .img{
+        background-color: rgb(240, 242, 245);
+        border-radius: 8px;
+        box-sizing: border-box;
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 24;
+        position: relative;
+    }
+    .main3 .bg-2 .img{
+        margin-top: -320px;
+    } 
+    .main3 .bg-1 , .bg-2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .main3 .project-item .img img{
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        box-sizing: border-box;
+        height: 180px;
+        width: 600px;
+        max-width: 100%;
+        vertical-align: middle;
+    }
+    .main3 .project-item .img a{
+        background-color: white;
+        border-radius: 50%;
+        box-sizing: border-box;
+        color: rgb(71, 112, 225);
+        cursor: pointer;
+        display: block;
+        filter: drop-shadow(rgba(26, 31, 44, 0.25) 0px 12px 12px);
+        height: 40px;
+        left: 324px;
+        line-height: 38px;
+        margin-top: -10px;
+        width: 40px;
+        z-index: 9;
+        top: 222.938px;
+        transform: matrix(1, 0, 0, 1, -20, 0);
+        transition-delay: 0s;
+        transition-duration: 0.1s;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
+    .main3 .project-item .img a i{
+        cursor: pointer;
+        fill: none;
+        height: 22px;
+        width: 22px;
+        text-align: center;
+        vertical-align: auto;
+        stroke-width: 1.5px;
+    }
+    .main3 .img .info{
+        background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0,));
+        box-sizing: border-box;
+        font-size: 16px;
+        font-weight: 400;
+        height: 55.9875px;
+        line-height: 25.6px;
+        width: 648px;
+        position: absolute;
+    }
+    .main3 .info span{
+        background-color: white;
+        border-radius: 4px;
+        box-sizing: border-box;
+        color: rgb(71, 112, 225);
+        display: inline-block;
+        font-size: 12px;
+        font-weight: 500px;
+        height: 23.9875px;
+        line-height: 15.996px;
+        margin: 16px;
+        padding-left: 8px;
+        padding-right: 8px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        margin-top: -120px;
+    }
+    .end{
+        height: 17.5875px;
+        line-height: 25.6px;
+        font-family: "Bricolage Grotesque", sans-serif;
+        display: flex;
+        justify-content: center;
+    }
+    .end .p{
+        color: rgb(26, 31, 44);
+        text-align: center;
+        width: 331.2px;
+        text-decoration: none;
+    }
+    .end .p .a{
+        text-decoration: none;
+        color: rgb(71, 112, 255);
+        cursor: pointer;
+        text-align: center;
+    }
+    /* Mobil qurilmalar uchun */
+    @media screen and (max-width: 767px){
+       .main{
+        display: grid;
+        grid-template-columns: 645px;
+        gap: 5px;
+       }
+       menu{
+        display: none;
+       }
+       .main4{
+        display: grid;
+        grid-template-columns: 1fr;
+       }
+       .service{
+        display: flex;
+        flex-wrap: wrap;
+       }
+       .service .serv{
+        width: 45%;
+       }
+       .main4 .card1{
+        margin: 10px auto;
+       }
+       .main4 .card2{
+        margin-left: 0px;
+       }
+    }

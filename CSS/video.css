@@ -1,0 +1,17 @@
+.grid{
+    height: 250px;
+    width: 250px;
+    display: grid;
+    border: 1px solid blue;
+    /* grid-template-rows: 25px  50px 75px 100px; */
+    grid-template-rows: 4fr 4fr 4fr;
+    grid-template-columns: 4fr 4fr 4fr;
+    grid-row-start:    header;
+grid-row-end:      header;
+grid-column-start: header;
+grid-column-end:   header;
+}
+.grid div{
+    border: 3px solid orange;
+    text-align: center;
+}
